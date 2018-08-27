@@ -1,3 +1,7 @@
 module.exports = {
-  productionSourceMap: false
+  baseUrl: './',
+  productionSourceMap: false,
+  pwa: {
+    name: 'Vuetemp'
+  }
 }
