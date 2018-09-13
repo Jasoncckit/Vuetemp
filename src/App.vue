@@ -30,18 +30,18 @@
     >
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-btn icon @click.stop="miniVariant = !miniVariant">
-        <v-icon v-html="miniVariant ? 'chevron_right' : 'chevron_left'"></v-icon>
+        <v-icon v-html="miniVariant ? 'mdi-arrow-right' : 'mdi-arrow-left'"></v-icon>
       </v-btn>
       <v-btn icon @click.stop="clipped = !clipped">
-        <v-icon>web</v-icon>
+        <v-icon>mdi-application</v-icon>
       </v-btn>
       <v-btn icon @click.stop="fixed = !fixed">
-        <v-icon>remove</v-icon>
+        <v-icon>mdi-minus</v-icon>
       </v-btn>
       <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
-        <v-icon>menu</v-icon>
+        <v-icon>mdi-menu</v-icon>
       </v-btn>
     </v-toolbar>
     <v-content>
@@ -79,7 +79,7 @@ export default {
       drawer: true,
       fixed: false,
       items: [{
-        icon: 'bubble_chart',
+        icon: 'mdi-lightbulb-on-outline',
         title: 'Inspire'
       }],
       miniVariant: false,
