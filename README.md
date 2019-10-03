@@ -1,4 +1,4 @@
-# vuetemp
+# Vuetemp
 
 ## Project setup
 ```
