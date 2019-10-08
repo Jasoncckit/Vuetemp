@@ -5286,6 +5286,11 @@ internal-ip@^4.3.0:
     default-gateway "^4.2.0"
     ipaddr.js "^1.9.0"
 
+intersection-observer@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/intersection-observer/-/intersection-observer-0.7.0.tgz#ee16bee978db53516ead2f0a8154b09b400bbdc9"
+  integrity sha512-Id0Fij0HsB/vKWGeBe9PxeY45ttRiBmhFyyt/geBdDHBYNctMRTE3dC1U3ujzz3lap+hVXlEcVaB56kZP/eEUg==
+
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
@@ -9932,6 +9937,11 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+sweetalert2@^8.18.1:
+  version "8.18.1"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-8.18.1.tgz#578ddedf2ededa59715562a7cc667a462a02fd97"
+  integrity sha512-Sjqj8sFwfL7Oa4TbMzYHgZJGEbmLGVXk2LZyjhMTVBjoxdTxVyYoaIw8zph3xVAX3fSYzueQ2xe89dxGX/E9hw==
 
 symbol-tree@^3.2.2:
   version "3.2.4"
