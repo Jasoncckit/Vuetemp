@@ -1,8 +1,8 @@
 <template>
   <v-app id="inspire">
     <v-navigation-drawer
-      v-model="drawer"
       app
+      v-model="drawer"
     >
       <v-list dense>
         <v-list-item>
@@ -41,8 +41,8 @@
       </v-container>
     </v-content>
     <v-footer
-      color="indigo"
       app
+      color="indigo"
     >
       <span class="white--text">&copy; 2019</span>
     </v-footer>
@@ -50,12 +50,12 @@
 </template>
 
 <script>
-export default {
-  props: {
-    source: String
-  },
-  data: () => ({
-    drawer: null
-  })
-}
+  export default {
+    props: {
+      source: String
+    },
+    data: () => ({
+      drawer: null
+    })
+  }
 </script>
