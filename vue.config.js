@@ -5,5 +5,6 @@ module.exports = {
     themeColor: '#FAFAFA',
     msTileColor: '#FAFAFA'
   },
-  transpileDependencies: ['vuetify']
+  transpileDependencies: ['vuetify'],
+  productionSourceMap: false
 }
