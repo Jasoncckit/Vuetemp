@@ -1,0 +1,18 @@
+@import '~vuetify/src/styles/styles.sass'
+// If you need to import the font family from CDN then add a import line
+
+$body-font-family: "Roboto"
+
+$typoOptions: display-4 display-3 display-2 display-1 headline title subtitle-1 subtitle-2 body-1 body-2 caption overline
+
+%font-choice
+  font-family: $body-font-family, sans-serif !important
+
+@mixin md-typography
+  @each $typoOption in $typoOptions
+    .#{$typoOption}
+      @extend %font-choice
+
+.v-application
+  @extend %font-choice
+  @include md-typography

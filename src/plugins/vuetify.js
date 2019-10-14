@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify/lib'
+import './style.sass'
 
 Vue.use(Vuetify)
 
