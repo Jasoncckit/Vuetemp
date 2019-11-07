@@ -7,7 +7,7 @@
       <v-list dense>
         <v-list-item>
           <v-list-item-action>
-            <v-icon>mdi-home</v-icon>
+            <v-icon>{{mdiHome}}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Home</v-list-item-title>
@@ -15,7 +15,7 @@
         </v-list-item>
         <v-list-item>
           <v-list-item-action>
-            <v-icon>mdi-contact-mail</v-icon>
+            <v-icon>{{mdiContactMail}}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Contact</v-list-item-title>
@@ -50,12 +50,16 @@
 </template>
 
 <script>
+import { mdiContactMail, mdiHome } from '@mdi/js'
+
 export default {
   props: {
     source: String
   },
   data: () => ({
-    drawer: null
+    drawer: null,
+    mdiHome: mdiHome,
+    mdiContactMail: mdiContactMail
   })
 }
 </script>
