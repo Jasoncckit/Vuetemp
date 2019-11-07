@@ -710,10 +710,10 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
-"@mdi/font@^3.6.95":
-  version "3.9.97"
-  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-3.9.97.tgz#b9f31e05574452e84f57e5b81d34ffd593bc9c29"
-  integrity sha512-yADBl2mzqIssrhLaRvJ2gZPyEQK+fN9uYh/1/cwwuq2lKDx+ITWsOrh1vlHMfw1IICMx9cwBjSoiCf3B8Br8nw==
+"@mdi/js@^4.5.95":
+  version "4.5.95"
+  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-4.5.95.tgz#f9d12c03b9f848001c82fbdcd1aa445a6c9c8d67"
+  integrity sha512-zQ6LqK/B61/ASwoR26AauCLfNc6u/SyTwsnWF0WLcSIh+oe+A7rQbioYT3eSsQch1gC+1Ejk8YDfD7gDk0FUXg==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -9937,11 +9937,6 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
-
-sweetalert2@^8.18.1:
-  version "8.18.1"
-  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-8.18.1.tgz#578ddedf2ededa59715562a7cc667a462a02fd97"
-  integrity sha512-Sjqj8sFwfL7Oa4TbMzYHgZJGEbmLGVXk2LZyjhMTVBjoxdTxVyYoaIw8zph3xVAX3fSYzueQ2xe89dxGX/E9hw==
 
 symbol-tree@^3.2.2:
   version "3.2.4"
