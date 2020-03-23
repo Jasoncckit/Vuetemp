@@ -15,7 +15,7 @@
         </v-list-item>
         <v-list-item>
           <v-list-item-action>
-            <v-icon>{{mdiContactMail}}</v-icon>
+            <v-icon>{{mdiContacts}}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Contact</v-list-item-title>
@@ -44,13 +44,13 @@
       app
       color="indigo"
     >
-      <span class="white--text">&copy; 2019</span>
+      <span class="white--text">&copy; 2020</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-import { mdiContactMail, mdiHome } from '@mdi/js'
+import { mdiContacts, mdiHome } from '@mdi/js'
 
 export default {
   props: {
@@ -59,7 +59,7 @@ export default {
   data: () => ({
     drawer: null,
     mdiHome: mdiHome,
-    mdiContactMail: mdiContactMail
+    mdiContacts: mdiContacts
   })
 }
 </script>
