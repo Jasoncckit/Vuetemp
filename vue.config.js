@@ -3,7 +3,10 @@ module.exports = {
   pwa: {
     name: 'Vuetemp',
     themeColor: '#FAFAFA',
-    msTileColor: '#FAFAFA'
+    msTileColor: '#FAFAFA',
+    workboxOptions: {
+      skipWaiting: true
+    }
   },
   transpileDependencies: ['vuetify'],
   productionSourceMap: false
