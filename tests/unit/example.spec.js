@@ -9,11 +9,18 @@ describe('HelloWorld.vue', () => {
   beforeEach(() => {
     vuetify = new Vuetify()
   })
-  it('renders props.source when passed', () => {
-    const source = 'Foobar'
-    const wrapper = mount(HelloWorld, {
+
+  const mountFunction = options => {
+    return mount(HelloWorld, {
       localVue,
       vuetify,
+      ...options
+    })
+  }
+
+  it('renders props.source when passed', () => {
+    const source = 'Foobar'
+    const wrapper = mountFunction({
       propsData: { source }
     })
     expect(wrapper.find('.fill-height').text()).toBe(source)
