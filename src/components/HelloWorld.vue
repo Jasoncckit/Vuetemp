@@ -7,7 +7,7 @@
       <v-list dense>
         <v-list-item>
           <v-list-item-action>
-            <v-icon>{{mdiHome}}</v-icon>
+            <v-icon>{{ mdiHome }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Home</v-list-item-title>
@@ -15,7 +15,7 @@
         </v-list-item>
         <v-list-item>
           <v-list-item-action>
-            <v-icon>{{mdiContacts}}</v-icon>
+            <v-icon>{{ mdiContacts }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>Contact</v-list-item-title>
@@ -38,6 +38,7 @@
         class="fill-height"
         fluid
       >
+        {{ source }}
       </v-container>
     </v-main>
     <v-footer

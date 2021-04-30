@@ -1,12 +1,21 @@
-import { shallowMount } from '@vue/test-utils'
+import Vuetify from 'vuetify'
 import HelloWorld from '@/components/HelloWorld.vue'
+import { createLocalVue, mount } from '@vue/test-utils'
 
 describe('HelloWorld.vue', () => {
-  it('renders props.msg when passed', () => {
-    const msg = 'new message'
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg }
+  const localVue = createLocalVue()
+  let vuetify
+
+  beforeEach(() => {
+    vuetify = new Vuetify()
+  })
+  it('renders props.source when passed', () => {
+    const source = 'Foobar'
+    const wrapper = mount(HelloWorld, {
+      localVue,
+      vuetify,
+      propsData: { source }
     })
-    expect(wrapper.text()).toMatch(msg)
+    expect(wrapper.find('.fill-height').text()).toBe(source)
   })
 })
