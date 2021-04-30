@@ -2,8 +2,9 @@ import Vuetify from 'vuetify'
 import HelloWorld from '@/components/HelloWorld.vue'
 import { createLocalVue, mount } from '@vue/test-utils'
 
+const localVue = createLocalVue()
+
 describe('HelloWorld.vue', () => {
-  const localVue = createLocalVue()
   let vuetify
 
   beforeEach(() => {
